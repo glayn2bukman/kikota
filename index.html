@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+
+        <title>Kikota</title>
+    
+        <!--<link rel="stylesheet" href="../static/scripts/bootstrap-3.3.7/dist/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="index.css">
+
+        <!-- jQuery library -->
+        <!--<script src="../static/scripts/jquery-3.3.1.min.js"></script>-->
+
+        <!-- Latest compiled JavaScript -->
+        <!--<script src="../static/scripts/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>-->
+
+        <script src="index.js"></script>    
+
+        <!-- sweet alert -->
+            <script src="sweetalert/sweetalert.min.js"></script>
+            <link rel="stylesheet" href="sweetalert/sweetalert.css">
+
+    </head>
+
+    <body>
+        <div id="entry_div">
+            <div class="entry_div">
+                <input class=" _reset" type="text" id="team1" placeholder="team A" style="width:40%;text-indent:5px;">
+                <span style="width:20%;text-align:center;line-height:30px;color:red;font-weight:bold;">X</span>
+                <input class=" _reset" type="text" id="team2" placeholder="team B" style="width:40%;text-indent:5px;">
+            </div>
+            <div class="entry_div _reset">
+                <input class=" _reset" type="text" id="oddW" placeholder="odd W" style="width:40%;text-indent:5px;border:0px;">
+                <input class=" _reset" type="text" id="oddX" placeholder="odd X" style="width:18%;text-align:center;">
+                <input class=" _reset" type="text" id="oddL" placeholder="odd W" style="width:40%;text-indent:5px;border:0px;">
+            </div>
+            <div class="entry_div">
+                <span style="width:30%;"></span>
+                <input type="button" value="Reset" style="width:35%;" onclick="reset()">
+                <input type="button" value="Add" style="width:35%;" onclick="add_fixture()">
+            </div>
+        </div>
+
+        <div id="teams_div">
+            <div id="fixtures_div" class="teams_div"></div>
+        </div>
+
+        <div id="actions_div">
+			<button style="width:30%;" onclick="back()">&lt(<span id="back">0</span>) Back</button>
+			<button style="width:40%;" onclick="start_computing()">Compute</button>
+			<button style="width:30%;" onclick="next()">Next (<span id="next">0</span>)&gt</button>
+        </div>
+    </body>
+</html>

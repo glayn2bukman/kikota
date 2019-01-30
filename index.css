@@ -1,0 +1,101 @@
+body{    
+    background-color:#132;
+    color:#ddd;
+}
+
+.row{
+    float:left;
+    width:100%;
+    border:1px solid red;
+}
+
+#entry_div{
+    position:absolute;
+    width:90%;left:5%;
+    height:19%;top:1%;
+
+    border:1px solid;
+
+}
+
+#teams_div{
+    position:absolute;
+    width:90%;left:5%;
+    height:65%;top:22%;
+
+    border:1px solid;
+
+    overflow:auto;
+}
+
+#fixtures_div{
+        z-index:-1;
+}
+
+.teams_div{
+    position:absolute;
+    width:100%;left:0%;
+    height:100%;top:0%;
+
+    overflow:auto;
+}
+
+
+.odd{
+    position:absolute;
+    width:96%;
+    left:2%;
+    bottom:2px;
+    font-weight:bold;
+    font-size:1.5em;
+    text-align:center;
+}
+
+#actions_div{
+    position:absolute;
+    width:90%;left:5%;
+    height:10%;/*top:89%;*/
+	max-height:30px;
+	bottom:5px;
+	
+    border:1px solid;
+
+    overflow:auto;
+
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;   
+
+}
+
+.entry_div{
+    position:relative;
+    /*float:left;
+    */width:100%;
+    height:31%;
+/*
+    border:1px solid green;
+*/
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;   
+
+    margin-bottom:2px;
+}
+
+.fixture{
+    float:left;
+    width:100%;
+
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;   
+
+	margin-bottom:5px;
+}
