@@ -11,20 +11,20 @@ body{
 
 #entry_div{
     position:absolute;
-    width:90%;left:5%;
+    width:96%;left:2%;
     height:19%;top:1%;
-
+/*
     border:1px solid;
-
+*/
 }
 
 #teams_div{
     position:absolute;
     width:90%;left:5%;
     height:65%;top:22%;
-
+/*
     border:1px solid;
-
+*/
     overflow:auto;
 }
 
@@ -57,9 +57,9 @@ body{
     height:10%;/*top:89%;*/
 	max-height:30px;
 	bottom:5px;
-	
+/*	
     border:1px solid;
-
+*/
     overflow:auto;
 
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */

@@ -331,7 +331,7 @@ function get_odd(odd,arr,path){
                     odds.appendChild(tBo);
                 
                     if(path[j]==0){tAo.innerHTML="W"}
-                    else if(path[j]==1){tXo.innerHTML="W"}
+                    else if(path[j]==1){tXo.innerHTML="X"}
                     else if(path[j]==2){tBo.innerHTML="W"}
 
                 mum.appendChild(odds);
